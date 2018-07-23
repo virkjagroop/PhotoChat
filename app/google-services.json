@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "617721273798",
+    "firebase_url": "https://photochat-c3474.firebaseio.com",
+    "project_id": "photochat-c3474",
+    "storage_bucket": "photochat-c3474.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617721273798:android:ca7f070d32d15e22",
+        "android_client_info": {
+          "package_name": "com.jagroop.photochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617721273798-jqlfu7h2a50dgplqnnu2rbqpfeaollst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jagroop.photochat",
+            "certificate_hash": "975fd09ce630450d2faa7e1e3af9c8d877e80d57"
+          }
+        },
+        {
+          "client_id": "617721273798-bpbbgp0gpr253j5o665cm7ihhlitus3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgC7umK7MEirkigA73oC7EG3KatY4sDnc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617721273798-bpbbgp0gpr253j5o665cm7ihhlitus3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
