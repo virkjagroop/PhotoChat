@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PhotoChat</string>
+    <string name="new_user">NEW USER</string>
+    <string name="login">LOGIN</string>
 </resources>
