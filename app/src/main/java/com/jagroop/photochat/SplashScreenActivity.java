@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.jagroop.photochat.Login.LoginActivity;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
@@ -23,7 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         } else {
-            Intent intent = new Intent(getApplication(), RegistrationLoginActivity.class);
+            Intent intent = new Intent(getApplication(), LoginActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
             finish();

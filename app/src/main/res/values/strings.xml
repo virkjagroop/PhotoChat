@@ -2,4 +2,13 @@
     <string name="app_name">PhotoChat</string>
     <string name="new_user">NEW USER</string>
     <string name="login">LOGIN</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="or_create_account">or create account</string>
+    <string name="register">Register</string>
+    <string name="please_enter_email">Please enter your email</string>
+    <string name="please_enter_name">Please enter your name</string>
+    <string name="enter_password">Enter password</string>
+    <string name="have_account_login_her">Have account? Login her</string>
+    <string name="enter_all_details">Enter all details</string>
 </resources>
