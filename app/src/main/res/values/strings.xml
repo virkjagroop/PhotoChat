@@ -11,4 +11,9 @@
     <string name="enter_password">Enter password</string>
     <string name="have_account_login_her">Have account? Login her</string>
     <string name="enter_all_details">Enter all details</string>
+    <string name="please_provide_permissions">Please provide permissions</string>
+    <string name="fb_db_name_users">users</string>
+    <string name="fb_db_name_email">email</string>
+    <string name="fb_db_name_name">name</string>
+    <string name="fb_db_name_profilepic">profilePic</string>
 </resources>

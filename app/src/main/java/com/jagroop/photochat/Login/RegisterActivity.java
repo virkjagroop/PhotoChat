@@ -126,12 +126,12 @@ public class RegisterActivity extends AppCompatActivity {
                             } else {
                                 //add name
                                 String userId = mAuth.getCurrentUser().getUid();
-                                DatabaseReference currentUserDb = FirebaseDatabase.getInstance().getReference().child("users").child(userId);
+                                DatabaseReference currentUserDb = FirebaseDatabase.getInstance().getReference().child(getString(R.string.fb_db_name_users)).child(userId);
 
                                 Map userInfo = new HashMap();
-                                userInfo.put("email", email);
-                                userInfo.put("name", name);
-                                userInfo.put("profilePic", "default");
+                                userInfo.put(getString(R.string.fb_db_name_email), email);
+                                userInfo.put(getString(R.string.fb_db_name_name), name);
+                                userInfo.put(getString(R.string.fb_db_name_profilepic), "default");
 
                                 currentUserDb.updateChildren(userInfo);
                             }
