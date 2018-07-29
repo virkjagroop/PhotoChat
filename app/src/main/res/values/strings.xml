@@ -16,4 +16,5 @@
     <string name="fb_db_name_email">email</string>
     <string name="fb_db_name_name">name</string>
     <string name="fb_db_name_profilepic">profilePic</string>
+    <string name="name">name</string>
 </resources>
