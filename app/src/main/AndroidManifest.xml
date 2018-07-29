@@ -2,11 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.jagroop.photochat">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -25,7 +26,8 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".RegistrationLoginActivity" />
         <activity android:name=".Login.LoginActivity" />
-        <activity android:name=".Login.RegisterActivity"></activity>
+        <activity android:name=".Login.RegisterActivity" />
+        <activity android:name=".ShowCaptureActivity"></activity>
     </application>
 
 </manifest>

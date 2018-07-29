@@ -17,4 +17,5 @@
     <string name="fb_db_name_name">name</string>
     <string name="fb_db_name_profilepic">profilePic</string>
     <string name="name">name</string>
+    <string name="intent_extra_captured_image">caturedImage</string>
 </resources>
