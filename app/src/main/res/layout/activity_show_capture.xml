@@ -22,4 +22,18 @@
         android:scaleType="fitXY"
         android:layout_marginTop="?attr/actionBarSize"/>
 
+    <Button
+        android:id="@+id/sendToStories"
+        android:onClick="sendToStories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send to stories"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="@color/redLight"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textSize="15sp"/>
+
 </RelativeLayout>

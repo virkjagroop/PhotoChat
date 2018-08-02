@@ -18,4 +18,8 @@
     <string name="fb_db_name_profilepic">profilePic</string>
     <string name="name">name</string>
     <string name="intent_extra_captured_image">caturedImage</string>
+    <string name="fb_db_name_stories">stories</string>
+    <string name="fb_db_name_storyUrl">storyUrl</string>
+    <string name="fb_db_name_currentTimeStamp">currentTimeStamp</string>
+    <string name="fb_db_name_endTimeStamp">endTimeStamp</string>
 </resources>
