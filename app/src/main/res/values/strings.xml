@@ -22,4 +22,7 @@
     <string name="fb_db_name_storyUrl">storyUrl</string>
     <string name="fb_db_name_currentTimeStamp">currentTimeStamp</string>
     <string name="fb_db_name_endTimeStamp">endTimeStamp</string>
+    <string name="search_by_email">search by email</string>
+    <string name="search_friends">Search Friends</string>
+    <string name="fb_db_name_following">following</string>
 </resources>

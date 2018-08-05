@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.jagroop.photochat.Adapters.MyPagerAdapter;
+import com.jagroop.photochat.RecyclerView.UserInformation;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -34,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(pagerAdapter);
         viewPager.setCurrentItem(1);
 
+        UserInformation userInformation = new UserInformation();
+        userInformation.startFeching();
+
     }
 
     @Override
@@ -52,6 +56,10 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
             Log.d(TAG, "onOptionsItemSelected: " + item);
+        } else if (item.getItemId() == R.id.searchFriend) {
+            Intent intent = new Intent(getApplication(), SearchActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
         }
         return super.onOptionsItemSelected(item);
     }
